@@ -21,6 +21,7 @@ import HeroSection from "~/components/Index/HeroSection.vue";
 import CategoriesArticles from "~/components/Index/CategoriesArticles.vue";
 export default {
   name: "IndexPage",
+  layout: "footer",
   components: { HeroSection, CategoriesArticles },
   async asyncData({ $axios }) {
     try {

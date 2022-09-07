@@ -8,17 +8,14 @@
     <div class="pb-20">
       <Nuxt />
     </div>
-    <div class="mt-10">
-      <Footer />
-    </div>
   </div>
 </template>
 
 <script>
 import Navbar from "~/components/Layouts/Navbar.vue";
-import Footer from "~/components/Layouts/Footer.vue";
+
 export default {
-  components: { Navbar, Footer },
+  components: { Navbar },
 };
 </script>
 
