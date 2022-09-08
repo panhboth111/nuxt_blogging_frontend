@@ -1,5 +1,5 @@
 <template>
-  <div class="h-96 bg-gray-700 px-4 lg:px-10 py-8">
+  <div class="h-104 lg:h-96 bg-gray-700 px-4 lg:px-10 py-8 w-full">
     <div class="flex flex-col items-center justify-center h-full">
       <div
         class="text-3xl cursor-pointer lg:text-5xl font-bold text-primary w-full text-center"
@@ -21,7 +21,7 @@
           ><li>{{ category.name }}</li></nuxt-link
         >
       </ul>
-      <div class="text-center w-104 text-white mt-6">
+      <div class="text-center w-full lg:w-104 text-white mt-6">
         This is not an official website. This website was developed by a student
         of the Kirirom Institute of Technology for learning purposes only. The
         articles an images here were copied from other websites just for demo
