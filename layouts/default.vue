@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative bg-gray-100 dark:bg-black transition ease-in-out duration-700"
+    class="relative bg-gray-100 dark:bg-black transition ease-in-out duration-700 layout-default"
   >
     <div>
       <Navbar />
@@ -19,4 +19,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.layout-default {
+  transition: ease-in-out 0.7s;
+  -webkit-transition: ease-in-out 0.7s;
+}
+</style>
